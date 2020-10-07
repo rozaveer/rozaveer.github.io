@@ -111,6 +111,7 @@ nav .column.header_column .card {
 .button_container {
   display: flex;
   justify-content: flex-end;
+  width:100%;
 }
 
 .button {
@@ -184,8 +185,28 @@ li::before {
     font-size:0.8em;
   }
 
-  .card {
+  .card.background_card {
     margin:1rem 0;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .column_container#page_content {
+    padding-top:2rem;
+  }
+
+  .button {
+    margin-top: 0.5em;
+  }
+
+  nav .button {
+    margin-top: 0;
+  }
+
+  .button_container {
+    flex-direction: column;
   }
 }
 
