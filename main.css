@@ -108,6 +108,11 @@ nav .column.header_column .card {
 }
 
 /*Button style*/
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .button {
   display:flex;
   justify-content: flex-end;
@@ -156,6 +161,7 @@ ul {
 
 li {
   margin:0;
+  display: block;
 }
 
 li::before {
